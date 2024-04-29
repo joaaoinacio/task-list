@@ -15,7 +15,7 @@ export default function Private({ children }) {
                 //se tem user logado
                 if(user){
                     const userData = {
-                        uid: user.id,
+                        uid: user.uid,
                         email: user.email,
                     }
 
